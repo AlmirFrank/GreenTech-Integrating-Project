@@ -1,0 +1,27 @@
+@media (max-width: 800px){
+  #page-home{
+    background-position-x: 70vw;
+  }  
+  
+  #page-home .content{
+    align-items: center;
+    text-align: center;
+  }
+
+  #page-home main{
+    align-items: center;
+  }
+
+}
+
+@media (min-width: 1000px){
+  #page-home{
+    background-position-x: 20vw;
+  }
+}
+
+@media (max-height: 740px){
+  #page-home{
+    background-position-y: 200px;
+  }
+}
