@@ -4,9 +4,12 @@ h2{
 }
 
 #page-home{
-  height: 120vh;
+  height: 100vh;
   background: url('/assets/images/home.png') no-repeat;
-  background-position: 20vw;
+  /* background-position: 20vw; */
+  /* background-position-x: 20vw; */
+  /* background-position-y: 0vw; */
+  background-size: 1166px;
 }
 
 #page-home .content{
@@ -24,10 +27,7 @@ h2{
 #page-home header{
   display: flex;
   align-items: center;
-}
-
-#page-home header a{
-  display: block;
+  margin-top: 32px;
 }
 
 #page-home main{
@@ -38,6 +38,12 @@ h2{
   justify-content: center;
 }
 
+#page-home main img{
+  margin-left: 88px;
+  margin-bottom: 24px;
+  font-family: monospace; /* tirar */
+}
+
 #page-home main a{  /* Continuar a configurar esta propriedade */
   width: 100%;
   max-width: 360px;
@@ -45,13 +51,12 @@ h2{
   height: 50px;
   width: 118px;
 
-  margin-right: 18px;
+  margin-left: 8px;;
 
-  background-color: #bfd8e2;
-  border-radius: 10px;
+  font-size: 16px;
+  font-family: 'Segoe UI';
 
-  font-size: 18px;
-  line-height: 24px;
+  line-height: 29px;
   margin-top: 20px;
   color: rgb(40, 170, 221);
 }
