@@ -1,125 +1,116 @@
-#page-new-register{
-  width: 90%;
-  max-width: 1100px;
-  margin: 0 auto;
+#page-new-register {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-#page-new-register header{
-  margin-top: 48px;
-  display: flex;
-  
-  justify-content: space-between;
-  align-items: center;
+#page-new-register header {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#page-new-register header a{
-  color: #436a9e;
-  font-weight: bold;
-  font-family: Arial;
-
-  display: flex;
-  align-items: center;
+#page-new-register header a {
+    color: #436a9e;
+    font-weight: bold;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
 }
 
-#page-new-register header a span{
-  background-image: url('../assets/images/arrow-left.svg');
-
-  margin-right: 15px;
-  width: 20px;
-  height: 24px;
-  display: flex;
+#page-new-register header a span {
+    background-image: url('../assets/images/arrow-left.svg');
+    margin-right: 15px;
+    width: 20px;
+    height: 24px;
+    display: flex;
 }
 
-form{
-  background-color: #61a8c4;
-  margin: 70px auto;
-
-  /* Preenchimento */
-  padding: 64px;
-
-  border-radius: 10px;
-  max-width: 780px;
+form {
+    background-color: #61a8c4;
+    margin: 70px auto;
+    /* Preenchimento */
+    padding: 64px;
+    border-radius: 10px;
+    max-width: 780px;
 }
 
-form h1{
-  font-size: 36px;
-  color: #FFFAFA;
+form h1 {
+    font-size: 36px;
+    color: #FFFAFA;
 }
 
-form fieldset{
-  margin-top: 64px;
-  border: 0;
+form fieldset {
+    margin-top: 64px;
+    border: 0;
 }
 
-form legend{
-  margin-bottom: 40px;
+form legend {
+    margin-bottom: 40px;
 }
 
-form legend h2{
-  font-size: 24px;
-  color: #f0f0f5;
+form legend h2 {
+    font-size: 24px;
+    color: #f0f0f5;
 }
 
-form .field{
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  margin-bottom: 24px;
+form .field {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 24px;
 }
 
-form .field-group{
-  display: flex;
+form .field-group {
+    display: flex;
 }
 
-form input, form select{
-  background-color: #f0f0f5;
-  /* border: none; */
-
-  border-radius: 15px;
-  border-color: #34a0cb;
-
-  padding: 12px 24px;
-  font-size: 16px;
-  outline: none;
+form input,
+form select {
+    background-color: #f0f0f5;
+    /* border: none; */
+    border-radius: 15px;
+    border-color: #34a0cb;
+    padding: 12px 24px;
+    font-size: 16px;
+    outline: none;
 }
 
-  /* PERDE AS CARACTERISTICAS DE SER UM CAMPO DO ESTILO SELECT - 
+
+/* PERDE AS CARACTERISTICAS DE SER UM CAMPO DO ESTILO SELECT - 
     CRHOME OU FIREFOZ OU OUTROS NAVEGADORES NAO APLICA OS ESTILOS ACIMA */
+
+
 /* form select{
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 } */
 
-form label{
-  margin-bottom: 8px;
+form label {
+    margin-bottom: 8px;
 }
 
-form .field-group .field + .field{
-  margin-left: 32px;
+form .field-group .field+.field {
+    margin-left: 32px;
 }
 
-form button{
-  width: 260px;
-  height: 56px;
-
-  border-radius: 15px;
-
-  margin-top: 32px;
-  margin-left: 40px;
-
-  font-weight: bold;
-  font-size: 16px;
-  color: white;
-
-  background-color: #34a0cb;
-  border-color: blue;
-  outline: none;
-
-  transition: background-color 400ms;
+form button {
+    width: 260px;
+    height: 56px;
+    border-radius: 15px;
+    margin-top: 32px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background-color: #34a0cb;
+    border-color: blue;
+    outline: none;
+    transition: background-color 400ms;
 }
 
-form button:hover{
-  background-color: #436a9e;
+form button:hover {
+    background-color: #436a9e;
 }
-

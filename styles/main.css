@@ -1,24 +1,23 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-  background: #f0f0f5;
+body {
+    background: #f0f0f5;
 }
 
-a{
-  text-decoration: none;
+a {
+    text-decoration: none;
 }
 
-label{
-  font-style: oblique;
-  font-family: 'Segoe UI';
+label {
+    font-style: oblique;
+    font-family: 'Segoe UI';
 }
 
-p{
-  font-size: 16px;
-  font-family: 'Segoe UI';
+p {
+    font-size: 16px;
+    font-family: 'Segoe UI';
 }
-
