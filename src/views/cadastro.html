@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/cadastro.css">
     <link rel="stylesheet" href="/styles/responsive.css">
-    <!-- <link rel="cadastro" href="/controllers/cadastroController.js"> -->
 </head>
 <body>
+    <!-- <script type="text/javascript" src="/controllers/cadastroController.js"></script> -->
     <div id="page-cadastro">
         <header>
             <img src="/assets/images/logo.png" alt="Logomarca">
@@ -37,9 +37,6 @@
                     <div class="field">
                         <label for="telefone">Telefone</label>
                         <input type="tel" name="telefone" id="telefone" placeholder="Ex.: (00) 00000-0000">
-                        <script type="text/javascript">
-                            $("#telefone").mask("(00) 0000-0000");
-                        </script>
                     </div>
                     <div class="field">
                         <label for="sexo">Genêro</label>
@@ -69,7 +66,7 @@
                 <div class="field-group">
                     <div class="field">
                         <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" placeholder="Ex.: greenteech@email.com">
                     </div>
                     <div class="field">
                         <label for="senha">Senha</label>
@@ -78,8 +75,8 @@
                 </div>
             </fieldset>
             <div class="row">
-                <button type="submit" class="botaoGerente" onclick="cadastrar()">Novo Gerente</button>
-                <button type="submit" class="botaoFuncionario" onclick="cadastrar()">Novo Funcionário</button>
+                <button type="button" class="botaoGerente" onclick="cadastrar()">Novo Gerente</button>
+                <button type="button" class="botaoFuncionario" onclick="cadastrar()">Novo Funcionário</button>
             </div>
         </form>
     </div>
@@ -111,12 +108,6 @@
                 return false;
             }
         
-            if (rg == "") {
-                alert("Por Favor, Insira um RG Válido!")        
-                dadosCadastro.rg.focus();
-                return false;
-            }
-        
             if(email.indexOf("@") == -1 ||
               email == "" || email == null) {
                 alert("Por Favor, Informe um E-mail Válido!");
@@ -128,7 +119,7 @@
                 alert("Por Favor, Insira uma Senha Válida!")        
                 dadosCadastro.senha.focus();
                 return false;
-            }
+    }
             alert("Cadastro Realizado!"); 
         }
         </script>

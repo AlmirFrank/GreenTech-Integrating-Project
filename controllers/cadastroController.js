@@ -1,5 +1,9 @@
 
-function enviardados() {
+var imported = document.createElement('script');
+imported.src = 'input-mask.js';
+document.head.appendChild(inported);
+
+enviardados = function () {
     var user = dadosCadastro.user.value;
     var telefone = dadosCadastro.telefone.value;
     var cpf = dadosCadastro.cpf.value;
@@ -22,12 +26,6 @@ function enviardados() {
     if (cpf == "") {
         alert("Por Favor, Insira um CPF Válido!")
         dadosCadastro.cpf.focus();
-        return false;
-    }
-
-    if (rg == "") {
-        alert("Por Favor, Insira um RG Válido!")        
-        dadosCadastro.rg.focus();
         return false;
     }
 
