@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/cadastro.css">
     <link rel="stylesheet" href="/styles/responsive.css">
+    <link rel="fuctions" href="/js/cadastroController.js">
 
 </head>
 
@@ -25,24 +26,17 @@
                 <span></span> Voltar para home
             </a>
         </header>
-
         <form action="paginaacao" method="post" name="dados" onSubmit="return enviardados();">
-
             <h1>Cadastre-se aqui</h1>
-
             <fieldset>
-
                 <legend>
                     <h2>Informe seus dados</h2>
                 </legend>
-
                 <div class="field">
                     <label for="user">Nome de Usuário</label>
                     <input type="text" name="user">
                 </div>
-
                 <div class="field-group">
-
                     <div class="field">
                         <label for="telefone">Telefone</label>
                         <input type="tel" name="telefone">
@@ -53,11 +47,8 @@
               <option value="">Selecione um genêro</option>
             </select>
                     </div>
-
                 </div>
-
                 <div class="field-group">
-
                     <div class="field">
                         <label for="cpf">CPF</label>
                         <input type="text" name="cpf">
@@ -66,11 +57,8 @@
                         <label for="rg">RG</label>
                         <input type="text" name="rg">
                     </div>
-
                 </div>
-
                 <div class="field-group">
-
                     <div class="field">
                         <label for="email">E-mail</label>
                         <input type="email" name="email">
@@ -79,18 +67,15 @@
                         <label for="senha">Senha</label>
                         <input type="password" name="senha">
                     </div>
-
                 </div>
-
             </fieldset>
-
-            <button type="submit">Novo Gerente</button>
-            <button type="submit">Novo Funcionário</button>
-
+            <div class="footer">
+                <button type="button" class="botaoGerente" onclick="validarG()">Novo Gerente</button>
+            </div>
+            <div class="footer">
+                <button type="submit" class="botaoFuncionario" onclick="validarF()">Novo Funcionário</button>
+            </div>
         </form>
-
     </div>
-
 </body>
-
 </html>
