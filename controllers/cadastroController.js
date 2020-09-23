@@ -1,9 +1,9 @@
 
-var imported = document.createElement('script');
-imported.src = 'input-mask.js';
-document.head.appendChild(inported);
+// var imported = document.createElement('script');
+// imported.src = 'input-mask.js';
+// document.head.appendChild(inported);
 
-enviardados = function () {
+function enviardados() {
     var user = dadosCadastro.user.value;
     var telefone = dadosCadastro.telefone.value;
     var cpf = dadosCadastro.cpf.value;
